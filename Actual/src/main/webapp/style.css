@@ -1,0 +1,45 @@
+body{
+    background-color: wheat;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+.reset{
+    padding-left: 100px;
+}
+
+input{
+    width: 130px;
+    height: 60px;
+    text-align: center;
+
+}
+
+
+#puzzle {
+    width: 750px;
+    height: 650px;
+    border: 2px solid darkgrey;
+    padding: 1px;
+    margin: 20px auto auto;
+}
+
+#puzzle img {
+    width: 250px;
+    height: 200px;
+    margin: 0;
+    padding: 0;
+}
+
+.puzzle_piece {
+    float: left;
+    outline: 1px solid black;
+    outline-offset: -1px;
+
+}
+
+#status
+{
+    font-size: 40px;
+}
